@@ -1,0 +1,335 @@
+body{
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.carouselBuildingImg{
+    width: 100%;
+    height: 99vh;
+}
+
+.logoTheBoat{
+    position: absolute;
+    margin: 50px;
+    z-index: 2;
+}
+
+.containerPage{
+    width: 100% !important;
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px 0px 0px 0px !important;
+    max-width: 100% !important;
+}
+
+.formContainer{
+    position: fixed;
+    z-index: 4;
+    width: 375px;
+    margin-left: 160vh;
+    top: 54px;
+
+    @media (max-width: 1200px) {
+        display: none;
+    }
+}
+
+.formbutton{
+    padding: 9px;
+    background: #374961;
+    margin-top: -20px;
+    border-radius: 9px;
+}
+
+@media (min-width: 376x) and (max-width: 424px) {
+    .ModalContainer{
+        margin-left: 44vh !important;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .ModalContainer{
+        margin-left: 45vh !important;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 550px) {
+    .ModalContainer{
+        margin-left: 69% !important;
+    }
+}
+
+@media (min-width: 700px) {
+    .ModalContainer{
+        margin-left: 80% !important;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .ModalContainer{
+        .inner{
+            overflow: hidden !important;
+            background: #272e3c !important;
+            width: 350px;
+            margin-left: 32px;
+        }
+        width: 126px;
+        position: fixed;
+        z-index: 4;
+        background: #272e3c;
+        border-radius: 11px;
+        padding: 6px;
+        margin-top: 85vh;
+        margin-left: 55vh;
+        color: #fff;
+    }
+}
+
+@media (min-width: 1201px) {
+    .ModalContainer{
+        display: none;
+    }
+}
+
+
+
+.formContainerModal{
+    width: 325px;
+}
+
+.formDiv{
+    width: 320px;
+    height: 330px;
+    background: rgba(38,45,60,.7);
+    position: static;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.inputsForm{
+    display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 0 solid #000000;
+  border-bottom: 2px solid rgba(232, 232, 232, 0.919);
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  background: rgba(204,204,204,0.43);
+  -webkit-box-shadow: 0 4px 3px -1px rgba(0,0,0,0.2) ;
+  box-shadow: 0 4px 3px -1px rgba(0,0,0,0.2) ;
+  margin-bottom: 35px;
+  outline: none;
+  width: 80%;
+}
+.inputsForm::placeholder { color: rgb(216, 216, 216); }
+
+.contentForm{
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.titleForm{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.mapContainer{
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+.mapTextDiv{
+    padding: 0 !important;
+}
+
+.mapText{
+    display: grid;
+    color: #565656 !important;
+    line-height: 1.5;
+    @media (max-width: 550px) {
+        padding: 25px;
+        margin-bottom: 71px;
+        margin-top: -58px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carouselPromotialPhrases{
+        text-align: center !important;
+        height: 145px !important;
+        font-size: 20px !important;
+        padding: 22px !important;
+    }
+
+    .carouselPhrases{
+        padding: 40px 60px 167px 60px !important;
+    }
+
+    .divTextContac{
+        border-right: 0px solid !important;
+    }
+
+    .divTextContacInfo{
+        border-right: 0px solid !important;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 770px) {
+    .carouselPhrases{
+        padding: 40px 60px 120px 60px !important;
+    }
+}
+
+@media (max-width: 770px) {
+
+    .slick-prev{
+        display: none !important;
+    }
+    .slick-next {
+        display: none !important;
+    }
+}
+
+@media (min-width: 771px) and (max-width: 120px) {
+    .carouselPhrases{
+        padding: 40px 60px 100px 60px !important;
+    }
+}
+
+.mapImage{
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    min-width: 320px;
+
+}
+
+.imgContarinerGallery{
+    .slick-prev{
+        left: -44px;
+    }
+}
+.imgContariner{
+    padding: 10px;
+    margin-top: -25px;
+    margin-bottom: 40px;
+    z-index: 2;
+}
+
+.carouselPromotialPhrases{
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    background: #002956;
+    font-size: 26px;
+    padding: 94px 60px 130px 60px;
+    margin-top: -75px;
+    color: #fff;
+    font-family: system-ui;
+}
+
+.carouselPhrases{
+    //background-image: url(https://res.cloudinary.com/the-boat-playa-del-carmen/image/upload/v1603121375/the-boat/new-media/playa.jpg);
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background: #e2b890;
+    font-size: 16px;
+    padding: 40px 60px 80px 60px;
+    margin-top: -22px;
+    color: #4e4e4e;;
+    font-family: system-ui;
+}
+
+.inventoryContainer{
+    width: 100%;
+    height: 75vh;
+    background: #fff;
+    z-index: 5;
+    position: relative;
+    margin-top: -20px;
+}
+
+.inventoryImage{
+    width: 50%;
+    height: 70vh;
+    min-width: 320px;
+}
+
+.inventoryImageDiv{
+    margin: 20px;
+}
+
+.imgGallery{
+    width: 100%;
+    height: 95vh;
+    margin-top: 10px;
+}
+
+
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+    font-size: 40px !important;
+}
+
+.galleryText{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 24px;
+}
+
+.galleryTextDiv{
+    margin-bottom: -45%;
+    margin-left: -30px;
+}
+
+.contactContainer{
+    height: fit-content;
+    margin-top: 90px !important;
+}
+
+.divTextContac{
+    color: rgb(99, 99, 99);
+    padding: 20px;
+    border-right: 2px solid;
+}
+.divTextContacInfo{
+    color: rgb(99, 99, 99);
+    padding: 20px;
+    padding-bottom: 90px;
+    border-right: 2px solid;
+}
+
+.colContarinerSocial{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    min-width: 325px;
+}
+
+.colContarinerContac {
+    min-width: 325px;
+}
+
+.logoSocialMEdia{
+    width: 49%;
+}
+
+.iconsSocialmediaC{
+    width: 49%;
+    padding: 20px;
+}
+
+.footer{
+    padding: 8px;
+    text-align: center;
+    background: #b7b7b7;
+}
